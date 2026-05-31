@@ -92,12 +92,13 @@ int main(void)
   MX_SPI2_Init();
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
-  LCD_Init();// 屏幕初始化，已及包含延时
+  LCD_Init();// 屏幕初始化，已经包含等待上电稳定的延时
 
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  
 	LCD_DisplayString(20,20,"Test");//显示字符串
   
   while (1)
