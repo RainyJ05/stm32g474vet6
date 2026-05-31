@@ -1,5 +1,5 @@
-w25q128_spi_flash_learn/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
-  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h \
+w25q128_spi_flash_learn/dma.o: ..\Core\Src\dma.c ..\Core\Inc\dma.h \
+  ..\Core\Inc\main.h ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h \
   ..\Core\Inc\stm32g4xx_hal_conf.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h \
@@ -29,11 +29,4 @@ w25q128_spi_flash_learn/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi.h \
-  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h \
-  ..\Core\Inc\dma.h ..\Core\Inc\main.h ..\Core\Inc\spi.h \
-  ..\Core\Inc\gpio.h ..\Drivers\BSP\Inc\w25flash.h \
-  ..\Drivers\BSP\Inc\lcd.h C:\keil5\ARM\ARMCLANG\Bin\..\include\stdio.h \
-  C:\keil5\ARM\ARMCLANG\Bin\..\include\math.h \
-  C:\keil5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
-  ..\Drivers\BSP\Inc\lcd_fonts.h ..\Drivers\BSP\Inc\lcd_image.h \
-  ..\Drivers\BSP\Inc\lcd_fonts.h
+  ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_spi_ex.h

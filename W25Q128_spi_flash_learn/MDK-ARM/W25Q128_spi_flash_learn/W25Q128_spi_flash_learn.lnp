@@ -7,6 +7,7 @@
 "w25q128_spi_flash_learn\w25flash.o"
 "w25q128_spi_flash_learn\main.o"
 "w25q128_spi_flash_learn\gpio.o"
+"w25q128_spi_flash_learn\dma.o"
 "w25q128_spi_flash_learn\spi.o"
 "w25q128_spi_flash_learn\stm32g4xx_it.o"
 "w25q128_spi_flash_learn\stm32g4xx_hal_msp.o"
