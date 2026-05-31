@@ -98,7 +98,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-	LCD_DisplayString(10,10,"Hello World!");//显示字符串
+	LCD_DisplayString(20,20,"Test");//显示字符串
   
   while (1)
   {
